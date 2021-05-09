@@ -12,6 +12,6 @@ This will initate scraping procedure and produce csv file with output, named: da
 Library requirements: scrapy
 
 ***Selenium*** <br>
-To run this scraper user should type in terminal: scrapy crawl cats -o data_cats.csv <br>
-This will initate scraping procedure and produce csv file with output, named: data_cats.csv
-Library requirements: scrapy
+To run this scraper user should type in terminal: python sel_scraper.py <br>
+This will initate scraping procedure and produce csv file with output, named: seleniumCatsData.csv
+Library requirements: selenium, time, pandas, re
